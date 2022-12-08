@@ -232,7 +232,7 @@ main .most_popular .slider .slick-arrow {
   font-size: 0;
   width: 36px;
   height: 36px;
-  background: transparent url("../logos/ARROW.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("../logos/arrow.svg") 0% 0% no-repeat padding-box;
 }
 main .most_popular .slider .slick-arrow.slick-prev {
   left: 0;
