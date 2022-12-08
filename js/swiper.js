@@ -1,9 +1,8 @@
 window.addEventListener('load', function() {
     new Swiper ('.swiper', {
-        //loop: true,
         grabCursor: true,
-        slidesPerView: 5,
-        spaceBetween: 28,
+        slidesPerView: 1,
+        spaceBetween: 1,
         breakpoints: {
           320: {
             slidesPerView: 1.5,
