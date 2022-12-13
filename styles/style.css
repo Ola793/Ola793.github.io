@@ -194,7 +194,7 @@ main .buy_now .banner_1, main .buy_now .banner_2 {
 }
 main .buy_now .banner_1 img, main .buy_now .banner_2 img {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
 }
 main .buy_now .banner_1 .fake_button, main .buy_now .banner_2 .fake_button {
   bottom: 18%;
@@ -682,5 +682,10 @@ footer .watermark {
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.49px;
+  }
+}
+@media (min-width: 1081px) and (max-width: 1919px) {
+  main .buy_now {
+    justify-content: center;
   }
 }/*# sourceMappingURL=style.css.map */

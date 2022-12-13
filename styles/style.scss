@@ -234,7 +234,7 @@ main {
 
             img {
                 height: 100%;
-                width: 100%;
+                max-width: 100%;
             }
 
             .fake_button {
@@ -841,5 +841,12 @@ footer {
     }
 }
 
+@media (min-width: 1081px) and (max-width: 1919px)  {
+    main {
+        .buy_now {
+            justify-content: center;
+        }
+    }
+}
 
 
