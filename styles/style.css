@@ -154,8 +154,7 @@ main .running_string-holder .running_string {
   margin: 0 20px;
   padding: 22px 0 21px 100%;
   white-space: nowrap;
-  -webkit-animation: running_string 15s infinite linear;
-          animation: running_string 15s infinite linear;
+  animation: running_string 15s infinite linear;
 }
 main .running_string-holder .running_string .running_string-item {
   margin: 0 8px;
@@ -165,14 +164,6 @@ main .running_string-holder .running_string .running_string-item img {
 }
 main .running_string-holder .running_string .running_string-item:first-child {
   margin-bottom: 7px;
-}
-@-webkit-keyframes running_string {
-  0% {
-    transform: translate(0);
-  }
-  100% {
-    transform: translate(-100%);
-  }
 }
 @keyframes running_string {
   0% {
@@ -273,12 +264,14 @@ main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-im
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-image:hover {
   background-image: url(../images/2/2.png);
+  transition: all 0.5s ease 0s;
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .sale-list-image {
   background-image: url(../images/3/3.png);
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .sale-list-image:hover {
   background-image: url(../images/4/4.png);
+  transition: all 0.5s ease 0s;
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .new {
   top: 39px;
@@ -411,12 +404,6 @@ footer .footer_inner_wrapper .contact_form .text_holder input::-moz-placeholder 
   letter-spacing: 0.49px;
   padding: 11px 0;
 }
-footer .footer_inner_wrapper .contact_form .text_holder input:-ms-input-placeholder {
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: 0.49px;
-  padding: 11px 0;
-}
 footer .footer_inner_wrapper .contact_form .text_holder input::placeholder {
   font-size: 14px;
   line-height: 18px;
@@ -532,8 +519,7 @@ footer .watermark {
     line-height: 18px;
     letter-spacing: 0.56px;
     padding: 17px 0 14px;
-    -webkit-animation: none;
-            animation: none;
+    animation: none;
   }
   main .buy_now {
     margin: 20px 14px;
