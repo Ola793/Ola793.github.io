@@ -265,14 +265,14 @@ main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-im
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-image:hover {
   background-image: url(../images/2/2.png);
-  transition: ease-in-out 0.5s;
+  transition: all 0.5s ease-in-out 0.5s;
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .sale-list-image {
   background-image: url(../images/3/3.png);
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .sale-list-image:hover {
   background-image: url(../images/4/4.png);
-  transition: all 0.5s ease 0s;
+  transition: all 0.5s ease-in-out 0.5s;
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .new {
   top: 39px;
