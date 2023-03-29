@@ -179,6 +179,7 @@ main {
         
         &:hover{
             background-color: $light-grey-color;
+            cursor: pointer;
         }
     }
 
@@ -330,7 +331,7 @@ main {
 
                     &:hover {
                         background-image: url(../images/2/2.png); 
-                        transition: all 0.5s ease 0s;
+                        transition: ease-in-out 0.5s;
                     }
                 }
 

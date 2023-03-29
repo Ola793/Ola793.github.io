@@ -137,6 +137,7 @@ main .fake_button {
 }
 main .fake_button:hover {
   background-color: #F4F4F4;
+  cursor: pointer;
 }
 main .running_string-holder {
   display: flex;
@@ -264,7 +265,7 @@ main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-im
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(odd) .sale-list-image:hover {
   background-image: url(../images/2/2.png);
-  transition: all 0.5s ease 0s;
+  transition: ease-in-out 0.5s;
 }
 main .check_new_prices .sale-list .sale-list-item:nth-of-type(even) .sale-list-image {
   background-image: url(../images/3/3.png);
